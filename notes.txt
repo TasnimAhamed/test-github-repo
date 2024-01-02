@@ -47,8 +47,11 @@ Commads:
 8. Get git history/log : git log
             get it in short: git log --oneline
 
-9. Discard teh change in working directory: git restore "file_name"
+9. Discard the change in working directory: git restore "file_name"
 
+10. Revert a commit: git reset --hard "commit_id"
+
+11. Get all logs: git reflog
 
 
 /************** Learn Mores **************/
