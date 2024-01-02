@@ -65,6 +65,10 @@ Commads:
 
 4. Switch to new branch: git switch "branch_name"
 
+5. Merge the new branch: git merge "branch_name"
+
+6. Delete a branch: git branch -d "branch_name"
+
 /************** Learn Mores **************/
 
 1. Learn more on Vi editor and its Commands
