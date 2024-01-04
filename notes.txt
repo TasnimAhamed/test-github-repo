@@ -28,6 +28,7 @@ Commads:
     - remove file : rm "file_name"
     - force to remove : rm -f "file_name"
     - clear the termina: clear(git) / cls(powershell)
+    - create a directory : mkdir "directory_name"
 
 2. create a file : touch "file_name"
     - Example    : touch readme.md
@@ -70,6 +71,22 @@ Commads:
 6. Delete a branch: git branch -d "branch_name"
 
 7. rename a new branch: git branch -m "branch_name"
+
+/* Git Stash */
+1. If you want to switch without commiting current progess, you can stash your current progress
+    : git stash
+
+2. List of all stash: git stash list
+
+3. Show stash content : git stash show -p
+
+4. Get all data from stash: git stash pop [Latest stash will apply]
+                          : git stash apply stash_id
+
+
+/************** Git ignore file **************/
+
+
 
 /************** Learn Mores **************/
 
